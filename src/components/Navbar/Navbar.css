@@ -7,6 +7,7 @@
 
 .navbar .logo{
     width: 150px;
+    cursor: pointer;
 }
 
 .navbar-menu{
@@ -104,5 +105,8 @@
 @media (max-width:750px) {
     .navbar-menu{
         display: none;
+    }
+    .navbar .logo{
+        width: 100px;
     }
 }
